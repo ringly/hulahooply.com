@@ -1,0 +1,1392 @@
+.shout {
+  text-transform: uppercase;
+  letter-spacing: 0.14285714em;
+  font-size: 12px;
+  margin-bottom: 26.4px;
+}
+body {
+  font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
+  color: #333333;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Mercury SSm A', 'Mercury SSm B', georgia, serif;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: left;
+  }
+}
+h3 {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.15em;
+}
+@media (min-width: 641px) {
+  h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 991px) {
+  .center-sm {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .header-push {
+    display: none;
+  }
+}
+header .free-shipping {
+  font-family: 'Mercury SSm A', 'Mercury SSm B', georgia, serif;
+  font-weight: bold;
+  color: #ff7f7f;
+}
+@media (max-width: 640px) {
+  a.logo,
+  .logo {
+    width: 100%;
+    background-position: center;
+  }
+}
+.preorder-now {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 40;
+  padding: 10px 15px;
+  background: #fff;
+  text-align: center;
+}
+.preorder-now .ar-preorder {
+  font-size: 12px;
+  width: 160px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 641px) {
+  .preorder-now {
+    top: 16px;
+    bottom: auto;
+    width: 180px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: transparent;
+    z-index: 999;
+  }
+  .preorder-now .ar-preorder {
+    font-size: 11px;
+    width: 150px;
+  }
+}
+.btn-preorder {
+  background: #44a9ef;
+  color: #fff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+body {
+  height: auto !important;
+}
+.acard,
+.acard-push {
+  position: relative;
+  top: 0;
+  min-height: 500px;
+  min-height: 90vh;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
+  background: #f90;
+  border-top: 1px solid #ddd;
+  z-index: 1;
+  font-size: 12px;
+  line-height: 22px;
+}
+.acard .container,
+.acard-push .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.acard strong,
+.acard-push strong {
+  display: block;
+  margin-bottom: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14285714em;
+  font-size: 12px;
+  margin-bottom: 26.4px;
+}
+.acard p,
+.acard-push p,
+.acard li,
+.acard-push li {
+  margin-bottom: 24px;
+}
+.acard li p,
+.acard-push li p {
+  font-size: 11px;
+  line-height: 18px;
+}
+@media (min-width: 641px) {
+  .acard,
+  .acard-push {
+    padding-top: 66px;
+    font-size: 14px;
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  .acard .padded-top,
+  .acard-push .padded-top {
+    padding-top: 44px;
+  }
+  .acard li p,
+  .acard-push li p {
+    font-size: 12px;
+  }
+}
+html.skrollr .acard {
+  -webkit-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+  border-top: 0;
+}
+.acard .container {
+  position: relative;
+}
+.acard-push {
+  display: none;
+}
+.acard-wrap {
+  position: relative;
+}
+.acard-push {
+  min-height: 130vh;
+  position: relative;
+  z-index: 0;
+}
+.acard-push,
+.acard-push.even {
+  background: #999;
+}
+#push-preorder {
+  min-height: 200vh;
+  background: #fbfaf4;
+}
+@media (max-width: 640px) {
+  footer {
+    padding-bottom: 64px;
+  }
+}
+html.skrollr .footer-push {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background: #fbfaf4;
+}
+html.skrollr footer {
+  position: fixed;
+  z-index: 10;
+  bottom: -300px;
+  left: 0;
+  width: 100%;
+}
+html.skrollr .acard {
+  position: fixed;
+  top: 130%;
+  padding: 94px 0 22px;
+}
+html.skrollr .first-acard {
+  top: 0;
+}
+html.skrollr .acard-push {
+  display: block;
+}
+.side-bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 180px;
+  padding: 138px 15px 22px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 5;
+  -webkit-box-shadow: -1px 0 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: -1px 0 0 rgba(0, 0, 0, 0.05);
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.05);
+  letter-spacing: 0.13636364em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 1299px) {
+  .hide-right .side-bar {
+    opacity: 0;
+    right: -200px;
+  }
+}
+.side-bar.hide-right {
+  opacity: 0;
+  right: -200px;
+}
+.side-bar,
+.side-bar h3 {
+  text-align: right;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.side-bar h3 {
+  font-weight: bold;
+}
+.side-bar h3,
+.side-bar li {
+  margin-bottom: 11px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.side-bar a,
+.side-bar a:hover,
+.side-bar a:active {
+  color: #555;
+}
+.side-bar .active {
+  font-weight: bold;
+}
+.side-bar .active a,
+.side-bar .active a:hover,
+.side-bar .active a:active {
+  color: #444;
+}
+html.skrollr .side-bar {
+  display: block;
+}
+#story,
+html.show-video #story .faux {
+  background: #f1ede2 url("../images/aries/landing-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #story,
+  html.show-video #story .faux {
+    background-image: url("../images/aries/landing-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #story,
+  html.show-video #story .faux {
+    background-image: url("../images/aries/landing-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #story,
+  html.show-video #story .faux {
+    background-image: url("../images/aries/landing-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #story,
+  html.show-video #story .faux {
+    background-size: cover;
+  }
+}
+@media (min-width: 376px) {
+  #story,
+  html.show-video #story .faux {
+    background-color: #faf7f0;
+  }
+}
+@media (min-width: 376px) and (max-width: 991px) {
+  #story,
+  html.show-video #story .faux {
+    background-size: cover;
+    background-position: center;
+  }
+}
+#notifications {
+  background: #ebebe3 url("../images/aries/n10ns-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #notifications {
+    background-image: url("../images/aries/n10ns-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #notifications {
+    background-image: url("../images/aries/n10ns-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #notifications {
+    background-image: url("../images/aries/n10ns-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #notifications {
+    background-size: cover;
+  }
+}
+@media (min-width: 376px) {
+  #notifications {
+    background-color: #f9f6f1;
+  }
+}
+@media (min-width: 376px) and (max-width: 640px) {
+  #notifications {
+    background-position: center -124px;
+  }
+}
+#steps {
+  background: #f7f9ee url("../images/aries/steps-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #steps {
+    background-image: url("../images/aries/steps-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #steps {
+    background-image: url("../images/aries/steps-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #steps {
+    background-image: url("../images/aries/steps-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #steps {
+    background-size: cover;
+  }
+}
+@media (min-width: 376px) {
+  #steps {
+    background-color: #f1f2ec;
+  }
+}
+@media (min-width: 376px) and (max-width: 640px) {
+  #steps {
+    background-position: center -124px;
+  }
+}
+#inside {
+  background: #fbf8f1 url("../images/aries/inside-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #inside {
+    background-image: url("../images/aries/inside-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #inside {
+    background-image: url("../images/aries/inside-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #inside {
+    background-image: url("../images/aries/inside-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #inside {
+    background-size: cover;
+  }
+}
+#styles {
+  background: #f9f8f4 url("../images/aries/gemstones-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #styles {
+    background-image: url("../images/aries/gemstones-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #styles {
+    background-image: url("../images/aries/gemstones-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #styles {
+    background-image: url("../images/aries/gemstones-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #styles {
+    background-size: cover;
+  }
+}
+@media (max-width: 640px) {
+  #styles {
+    background-image: none;
+  }
+}
+#chill {
+  background: #f2eee2 url("../images/aries/life-chill-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #chill {
+    background-image: url("../images/aries/life-chill-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #chill {
+    background-image: url("../images/aries/life-chill-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #chill {
+    background-image: url("../images/aries/life-chill-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #chill {
+    background-size: cover;
+  }
+}
+@media (min-width: 376px) {
+  #chill {
+    background-color: #f8f4eb;
+  }
+}
+#work {
+  background: #f0eadc url("../images/aries/life-work-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #work {
+    background-image: url("../images/aries/life-work-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #work {
+    background-image: url("../images/aries/life-work-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #work {
+    background-image: url("../images/aries/life-work-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #work {
+    background-size: cover;
+  }
+}
+#play {
+  background: #eee1d1 url("../images/aries/life-play-bg-375.jpg?4") scroll no-repeat center 0;
+}
+@media (min-width: 376px) {
+  #play {
+    background-image: url("../images/aries/life-play-bg-991.jpg?4");
+  }
+}
+@media (min-width: 992px) {
+  #play {
+    background-image: url("../images/aries/life-play-bg-1200.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1201px) {
+  #play {
+    background-image: url("../images/aries/life-play-bg-1600.jpg?4");
+    background-position: center 0;
+  }
+}
+@media (min-width: 1601px) {
+  #play {
+    background-size: cover;
+  }
+}
+@media (min-width: 376px) {
+  #play {
+    background-color: #efddcf;
+  }
+}
+#preorder {
+  background: #faf9f5;
+}
+#preorder .container {
+  padding-bottom: 44px;
+}
+#preorder h2,
+#preorder p {
+  margin-bottom: 11px;
+}
+#preorder .avail-sizes {
+  text-transform: uppercase;
+}
+.media-section {
+  position: relative;
+  margin: 0 auto 22px;
+  max-width: 100%;
+}
+.media-section-inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+}
+@media (min-width: 992px) {
+  .media-section {
+    position: absolute;
+    margin-bottom: 0;
+  }
+}
+#story {
+  min-height: 100vh;
+}
+#story .container {
+  position: static;
+}
+.ar-collection {
+  display: inline-block;
+  width: 276px;
+  height: 36px;
+  background: transparent url(../images/aries/the-aries-collection-C-small-1x.png) no-repeat 0 0;
+  background-size: 276px 36px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .ar-collection {
+    background-image: url(../images/aries/the-aries-collection-C-small-2x.png);
+  }
+}
+@media (min-width: 992px) {
+  .ar-collection-responsive {
+    background-image: url(../images/aries/the-aries-collection-C-large-1x.png);
+    width: 449px;
+    height: 65px;
+    background-size: 449px 65px;
+  }
+}
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
+  .ar-collection-responsive {
+    background-image: url(../images/aries/the-aries-collection-C-large-2x.png);
+  }
+}
+.ar-collection-sub {
+  text-transform: uppercase;
+  letter-spacing: 0.14285714em;
+  font-size: 12px;
+  margin-bottom: 26.4px;
+}
+@media (max-width: 640px) {
+  .ar-collection-sub {
+    letter-spacing: .06em;
+  }
+}
+.ar-watchvideo {
+  position: absolute;
+  top: 290px;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.14285714em;
+  font-size: 12px;
+  margin-bottom: 26.4px;
+}
+.ar-watchvideo a,
+.ar-watchvideo a:hover {
+  color: #333;
+}
+.ar-watchvideo .play-btn {
+  position: relative;
+  display: inline-block;
+  background: #555;
+  background: rgba(0, 0, 0, 0.6);
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+.ar-watchvideo .play-btn b {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-left-color: #ffffff;
+  left: 23px;
+  top: 18px;
+  border-width: 12px 0 12px 20px;
+}
+@media (min-width: 992px) {
+  .ar-watchvideo .play-btn {
+    width: 72px;
+    height: 72px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+  }
+  .ar-watchvideo .play-btn b {
+    left: 28px;
+    top: 22px;
+    border-width: 15px 0 15px 24px;
+  }
+}
+.ar-next {
+  position: absolute;
+  top: 440px;
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+  text-align: center;
+}
+.ar-next:focus,
+.ar-next:hover {
+  color: #000;
+}
+.ar-next-general {
+  display: none;
+}
+@media (min-width: 376px) {
+  .ar-watchvideo {
+    top: 56%;
+  }
+  .ar-next {
+    top: 79%;
+  }
+}
+@media (min-width: 992px) {
+  .ar-watchvideo {
+    top: 455px;
+  }
+  .ar-next {
+    top: 600px;
+  }
+}
+html.skrollr .ar-watchvideo,
+html.skrollr .ar-next {
+  position: fixed;
+  top: auto;
+  bottom: 55px;
+}
+html.skrollr .ar-next {
+  bottom: 20px;
+}
+html.skrollr .ar-next-general {
+  position: absolute;
+  display: block;
+  top: auto;
+  bottom: 22px;
+}
+html.show-video header {
+  z-index: 1;
+}
+html.show-video .faux {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+html.show-video .close-overlay {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  color: #fff;
+  font-size: 18px;
+  opacity: .8;
+}
+html.show-video .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: #333;
+  background: rgba(66, 70, 77, 0.2);
+}
+html.show-video .video-overlay .video-wrap {
+  max-width: 830px;
+  margin: 10% auto 0;
+  padding: 15px;
+}
+.ari-phone {
+  display: block;
+  width: 315px;
+  height: 525px;
+  background: transparent url("../images/aries/phone.png?4") no-repeat 0 0;
+  background-size: 100%;
+}
+.ari-bracelet {
+  display: block;
+  width: 290px;
+  height: 284px;
+  background: transparent url("../images/aries/n10ns-bracelet.png?4") no-repeat 0 0;
+  background-size: 100%;
+}
+.ari-screen {
+  display: block;
+  width: 263px;
+  height: 471px;
+  background: transparent url("../images/aries/n10ns-app-interface.png?4") no-repeat 0 0;
+  background-size: 100%;
+}
+.n10ns-media-section,
+.steps-media-section {
+  width: 260px;
+}
+@media (min-width: 641px) {
+  .n10ns-media-section,
+  .steps-media-section {
+    width: 360px;
+  }
+}
+@media (min-width: 992px) {
+  .n10ns-media-section,
+  .steps-media-section {
+    top: 44px;
+    left: 39%;
+    width: 465px;
+  }
+}
+.n10ns-media-section .media-section-inner,
+.steps-media-section .media-section-inner {
+  padding-bottom: 112.90322581%;
+}
+.n10ns-media-section .ari-phone,
+.steps-media-section .ari-phone {
+  position: absolute;
+  width: 67.74193548%;
+  height: 0;
+  padding-bottom: 112.90322581%;
+  top: 0;
+  left: 32.25806452%;
+}
+.n10ns-media-section .ari-screen,
+.steps-media-section .ari-screen {
+  position: absolute;
+  width: 67.93650794%;
+  height: 0;
+  padding-bottom: 121.58730159%;
+  top: 11.23809524%;
+  left: 14.6031746%;
+}
+.n10ns-media-section .ari-bracelet,
+.steps-media-section .ari-bracelet {
+  position: absolute;
+  width: 50.96774194%;
+  height: 0;
+  padding-bottom: 49.89247312%;
+  top: 52.76190476%;
+  left: 0;
+}
+@media (min-width: 992px) {
+  #steps h3 {
+    margin-top: 44px;
+  }
+}
+@media (min-width: 992px) {
+  .steps-media-section {
+    left: 0;
+  }
+}
+.steps-media-section .ari-phone {
+  left: 0;
+}
+.steps-media-section .ari-bracelet {
+  background-image: url("../images/aries/steps-bracelet.png?4");
+  left: 49.03225806%;
+}
+.steps-media-section .ari-screen {
+  background-image: url("../images/aries/steps-app-interface.png?4");
+}
+.dot-placers li {
+  max-width: 200px;
+  margin: 0 -10px;
+  padding: 11px 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.dot-placers li:focus {
+  outline: none;
+}
+.dot-placers li strong {
+  margin-bottom: 5.5px;
+}
+.dot-placers li p {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .no-skrollr .dot-placers .active,
+  .allow-dot .dot-placers .active {
+    background-color: #ff7f7f;
+    color: #fff;
+  }
+}
+.ari-inside-dot {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: transparent url("../images/aries/inside-identifier-1x.png?4") no-repeat 0 0;
+  background-size: 100%;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .ari-inside-dot {
+    background-image: url("../images/aries/inside-identifier-2x.png?4");
+  }
+}
+.inside-media-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+.inside-media-section .media-section-inner {
+  padding-bottom: 79.33409874%;
+}
+@media (min-width: 992px) {
+  .inside-media-section {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    width: 59%;
+    max-width: 680px;
+  }
+  html.no-skrollr .inside-media-section {
+    display: block;
+    position: absolute;
+  }
+}
+@media (min-width: 1200px) {
+  .inside-media-section {
+    left: 31%;
+  }
+}
+.inside-media-section .ari-inside-brace,
+.inside-media-section .ari-inside-diagr,
+.inside-media-section .ari-inside-burro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent none no-repeat 0 0;
+  background-size: 100%;
+}
+.inside-media-section .ari-inside-burro {
+  background-image: url("../images/aries/inside-tech-diagram.png?4");
+}
+.inside-media-section .ari-inside-diagr {
+  background-image: url("../images/aries/inside-bracelet-diagram.png?4");
+}
+.inside-media-section .ari-inside-brace {
+  display: none;
+}
+html.skrollr .inside-media-section .ari-inside-brace {
+  display: block;
+  background-image: url("../images/aries/inside-bracelet-lapis.png?4");
+}
+.inside-media-section .ari-inside-dot {
+  position: absolute;
+  width: 4.5924225%;
+  height: 5.78871201%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.inside-media-section .ari-inside-dot.none {
+  opacity: 0;
+}
+.inside-media-section .ari-inside-dot.led {
+  top: 28.36468886%;
+  left: 50.63145809%;
+}
+.inside-media-section .ari-inside-dot.accel {
+  top: 18.23444284%;
+  left: 39.72445465%;
+}
+.inside-media-section .ari-inside-dot.motor {
+  top: 24.02315485%;
+  left: 73.0195178%;
+}
+.inside-media-section .ari-inside-dot.antenna {
+  top: 13.89290883%;
+  left: 53.50172216%;
+}
+.inside-media-section .ari-inside-dot.battery {
+  top: 2.3154848%;
+  left: 50.05740528%;
+}
+html.no-skrollr .ari-inside-dot,
+.allow-dot .ari-inside-dot {
+  opacity: 1;
+}
+@media (max-width: 991px) {
+  .inside-media-section .ari-inside-dot {
+    opacity: 1;
+  }
+}
+.dot-counters {
+  display: none;
+}
+@media (max-width: 991px) {
+  #inside {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  #inside .dot-placers-wrap {
+    position: relative;
+    height: 457px;
+    max-width: 400px;
+    padding-top: 232px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  #inside .dot-placers {
+    margin-bottom: 0;
+  }
+  #inside .dot-placers li {
+    max-width: 100%;
+  }
+  #inside .dot-counters {
+    display: block;
+  }
+  #inside .dot-counters b {
+    padding: 3px 8px;
+    cursor: pointer;
+  }
+  #inside .dot-counters b:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0;
+    background: #ccc;
+  }
+  #inside .dot-counters b:hover:after {
+    background: #111;
+  }
+  #inside .dot-counters b.active:after {
+    background: #ff7f7f;
+  }
+  #inside .inside-media-section {
+    height: 435px;
+    overflow: hidden;
+  }
+  #inside .media-section-inner {
+    width: 548.31403763px;
+    height: 435px;
+    left: 50%;
+    margin-left: -314.15701881px;
+    padding: 0;
+  }
+}
+.ari-gems {
+  display: block;
+  width: 312px;
+  height: 153px;
+  background: transparent url("../images/aries/gemstones-labradorite.png?4") no-repeat 0 0;
+  background-size: 100%;
+}
+.ari-gems-tour {
+  background-image: url("../images/aries/gemstones-tourmalated-quartz.png?4");
+}
+.ari-gems-moon {
+  background-image: url("../images/aries/gemstones-rainbow-moonstone.png?4");
+}
+.ari-gems-lapi {
+  background-image: url("../images/aries/gemstones-lapis.png?4");
+}
+.gems-media-section {
+  width: 360px;
+  margin-bottom: 44px;
+}
+@media (min-width: 992px) {
+  .gems-media-section {
+    top: 44px;
+    left: 46%;
+    width: 387px;
+  }
+}
+.gems-media-section .media-section-inner {
+  padding-bottom: 116.5374677%;
+}
+.gems-media-section .ari-gems {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 80.62015504%;
+  height: 0;
+  padding-bottom: 39.53488372%;
+}
+.gems-media-section .ari-gems-tour {
+  left: 19.37984496%;
+  top: 22.61640798%;
+}
+.gems-media-section .ari-gems-moon {
+  left: 0%;
+  top: 43.45898004%;
+}
+.gems-media-section .ari-gems-lapi {
+  left: 15.50387597%;
+  top: 66.07538803%;
+}
+#styles ul {
+  text-transform: uppercase;
+}
+#styles ul strong {
+  padding-bottom: 11px;
+  border-bottom: 1px solid #333333;
+  max-width: 320px;
+}
+@media (max-width: 991px) {
+  #styles .styles-sizes {
+    display: block;
+    clear: both;
+    float: none;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 640px) {
+  #chill h3 {
+    margin-bottom: 430px;
+  }
+  #work h3 {
+    margin-bottom: 500px;
+  }
+  #play h3 {
+    margin-bottom: 450px;
+  }
+}
+@media (max-width: 375px) {
+  #chill h3 {
+    margin-bottom: 530px;
+  }
+  #work h3 {
+    margin-bottom: 460px;
+  }
+  #play h3 {
+    margin-bottom: 380px;
+  }
+}
+@media (min-width: 376px) and (max-width: 640px) {
+  #chill {
+    background-image: url("../images/aries/life-chill-bg-640.jpg?4");
+  }
+  #work {
+    background-image: url("../images/aries/life-work-bg-640.jpg?4");
+  }
+  #play {
+    background-image: url("../images/aries/life-play-bg-640.jpg?4");
+  }
+}
+@media (min-width: 1201px) {
+  #work .container {
+    padding-top: 82px;
+  }
+}
+.app-use {
+  position: relative;
+  display: block;
+  margin-bottom: 11px !important;
+  min-height: 40px;
+  line-height: 22px;
+  padding: 9px 10px 9px 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.14285714em;
+  font-size: 12px;
+  margin-bottom: 26.4px;
+}
+.app-use.app-use-none {
+  font-size: 11px;
+  text-transform: none;
+  font-style: italic;
+  padding: 0 0 0 45px;
+}
+@media (min-width: 376px) and (max-width: 991px) {
+  .app-use {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 641px) and (max-width: 991px) {
+  .hang-right .app-use {
+    float: right;
+    clear: both;
+  }
+}
+.app-use:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background: transparent url("../images/aries/app-icons-1x.png?4") no-repeat 0 0;
+  background-size: 40px 480px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .app-use:before {
+    background-image: url("../images/aries/app-icons-2x.png?4");
+  }
+}
+.app-use.app-use-none:before {
+  background-image: none;
+}
+.app-use.app-use-whatsapp:before {
+  background-position: 0 0px;
+}
+.app-use.app-use-instagram:before {
+  background-position: 0 -40px;
+}
+.app-use.app-use-mindbody:before {
+  background-position: 0 -80px;
+}
+.app-use.app-use-facebook:before {
+  background-position: 0 -120px;
+}
+.app-use.app-use-calendar:before {
+  background-position: 0 -160px;
+}
+.app-use.app-use-phone:before {
+  background-position: 0 -200px;
+}
+.app-use.app-use-slack:before {
+  background-position: 0 -240px;
+}
+.app-use.app-use-email:before {
+  background-position: 0 -280px;
+}
+.app-use.app-use-snapchat:before {
+  background-position: 0 -320px;
+}
+.app-use.app-use-text:before {
+  background-position: 0 -360px;
+}
+.app-use.app-use-uber:before {
+  background-position: 0 -400px;
+}
+.app-use.app-use-bumble:before {
+  background-position: 0 -440px;
+}
+.ar-row {
+  margin-bottom: 33px;
+}
+.ar-product,
+a.ar-product {
+  display: block;
+  padding: 11px 0 0;
+  text-align: center;
+  letter-spacing: 0.1875em;
+  text-transform: uppercase;
+}
+.ar-product span,
+a.ar-product span {
+  display: block;
+}
+.ar-product .ar-img,
+a.ar-product .ar-img {
+  margin-bottom: 22px;
+  max-width: 140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ar-product .ar-img img,
+a.ar-product .ar-img img {
+  vertical-align: top;
+  max-width: 70%;
+}
+@media (min-width: 992px) {
+  .ar-product .ar-img img,
+  a.ar-product .ar-img img {
+    max-width: 100%;
+  }
+}
+.ar-product .ar-name,
+a.ar-product .ar-name {
+  font-size: 16px;
+  white-space: nowrap;
+}
+.ar-product .ar-subname,
+a.ar-product .ar-subname {
+  font-size: 12px;
+  min-height: 44px;
+  margin-bottom: 5px;
+}
+.ar-product .ar-og-price,
+a.ar-product .ar-og-price {
+  font-size: 11px;
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+.ar-product .ar-og-price s,
+a.ar-product .ar-og-price s {
+  text-decoration: none;
+  color: #ff0983;
+}
+.ar-product .ar-price,
+a.ar-product .ar-price {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.ar-product .ar-price b,
+a.ar-product .ar-price b {
+  font-size: 14px;
+  font-weight: bold;
+}
+.ar-product .ar-btn,
+a.ar-product .ar-btn {
+  max-width: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  background: transparent;
+  color: #111111;
+  border: 1px solid #111111;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 11px 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.ar-product:hover,
+a.ar-product:hover,
+.ar-product:focus,
+a.ar-product:focus {
+  color: #111;
+}
+.ar-product:hover .ar-btn,
+a.ar-product:hover .ar-btn,
+.ar-product:focus .ar-btn,
+a.ar-product:focus .ar-btn {
+  background-color: #111111;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .ar-product .ar-subname,
+  a.ar-product .ar-subname {
+    min-height: 0;
+  }
+}
+.ar-xs-sep {
+  display: none;
+}
+@media (max-width: 640px) {
+  .ar-xs-sep {
+    display: block;
+    width: 75%;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    margin-bottom: 60px;
+    border-top: 0;
+  }
+}
+.dont-miss {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+}
+.dont-miss em {
+  text-transform: uppercase;
+}
+.dont-miss img {
+  margin-bottom: 15px;
+}
+.bounce {
+  animation: bounceAnimation 1000ms ease-in-out;
+}
+@keyframes bounceAnimation {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  12.5% {
+    -webkit-transform: translateY(-24px) rotateY(-25deg);
+    -moz-transform: translateY(-24px) rotateY(-25deg);
+    -o-transform: translateY(-24px) rotateY(-25deg);
+    -ms-transform: translateY(-24px) rotateY(-25deg);
+    transform: translateY(-24px) rotateY(-25deg);
+  }
+  37.5% {
+    -webkit-transform: translateY(15px) rotateY(20deg);
+    -moz-transform: translateY(15px) rotateY(20deg);
+    -o-transform: translateY(15px) rotateY(20deg);
+    -ms-transform: translateY(15px) rotateY(20deg);
+    transform: translateY(15px) rotateY(20deg);
+  }
+  62.5% {
+    -webkit-transform: translateY(-9px) rotateY(-10deg);
+    -moz-transform: translateY(-9px) rotateY(-10deg);
+    -o-transform: translateY(-9px) rotateY(-10deg);
+    -ms-transform: translateY(-9px) rotateY(-10deg);
+    transform: translateY(-9px) rotateY(-10deg);
+  }
+  87.5% {
+    -webkit-transform: translateY(6px) rotateY(5deg);
+    -moz-transform: translateY(6px) rotateY(5deg);
+    -o-transform: translateY(6px) rotateY(5deg);
+    -ms-transform: translateY(6px) rotateY(5deg);
+    transform: translateY(6px) rotateY(5deg);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

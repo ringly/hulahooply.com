@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hula Hooply - the smartest hula hoop ever</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <meta name="description" content="The biggest innovation in hula-hoops since their invention in 1958. The Hula-Hooply brings notifications and spin tracking to a new generation of hula enthusiasts. Pre-order now!" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta property="og:image" content="/static/images/aries-ringly-bracelet.jpg"/>
+  <link rel="stylesheet" href="//cloud.typography.com/6176292/805864/css/fonts.css" />
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+  <link href="/static/bower/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="/static/css/reset.css" rel="stylesheet" />
+  <link href="/static/_css/style.css" rel="stylesheet" />
+  <link href="/static/_css/bracelet_launch.css" rel="stylesheet" />
+  <style>
+    .hooply,
+    .hooply:hover {
+    float: left;
+    position: relative;
+    font-size: 38px;
+    line-height: 58px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    z-index: 1;
+    color: #111;
+    }
+    h1, h2, .hooply { font-family:'Gotham A', 'Gotham B', arial, sans-serif }
+    #preorder, #push-preorder, html.skrollr .footer-push { background: #fff; }
+    .n10ns-media-section .ari-bracelet { background-image: url("/static/images/hula/hula-n10ns.png"); }
+    .steps-media-section .ari-bracelet { background-image: url("/static/images/hula/hula-spins.png"); }
+    .acard strong { margin-bottom: 11px; }
+    #story h1, #story p, #story a {
+    color: #fff;
+    }
+    #notifications .col-md-7 { width: 100%; }
+
+    .testimonial {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    padding: 10px 15px;
+    color: #fff;
+    text-shadow: 0 0 5px pink;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-style: italic;
+    background: rgba(0, 0, 0, .15);
+    }
+
+    html.skrollr .testimonial {
+        padding-right: 195px;
+    }
+
+    .name { white-space: nowrap; }
+
+    #story, html.show-video #story .faux {
+      background-image: url("/static/images/hula/bg/quad-414.jpg");
+      background-size: cover;
+    }
+    #bg-1 {
+      background-image: url("/static/images/hula/bg/block-party-414.jpg");
+      background-size: cover;
+      background-color: pink;
+    }
+    #bg-2 {
+      background-image: url("/static/images/hula/bg/solstice-414.jpg");
+      background-size: cover;
+      background-color: pink;
+    }
+
+    @media (min-width: 415px) {
+    #story, html.show-video #story .faux {
+      background-image: url("/static/images/hula/bg/quad-640.jpg");
+    }
+    #bg-1 {
+      background-image: url("/static/images/hula/bg/block-party-640.jpg");
+    }
+    #bg-2 {
+      background-image: url("/static/images/hula/bg/solstice-640.jpg");
+    }
+    }
+
+    @media (min-width: 641px) {
+    #story, html.show-video #story .faux {
+      background-image: url("/static/images/hula/bg/quad-1200.jpg");
+    }
+    #bg-1 {
+      background-image: url("/static/images/hula/bg/block-party-1200.jpg");
+    }
+    #bg-2 {
+      background-image: url("/static/images/hula/bg/solstice-1200.jpg");
+    }
+    }
+
+    @media (min-width: 1201px) {
+    #story, html.show-video #story .faux {
+      background-image: url("/static/images/hula/bg/quad-1600.jpg");
+    }
+    #bg-1 {
+      background-image: url("/static/images/hula/bg/block-party-1600.jpg");
+    }
+    #bg-2 {
+      background-image: url("/static/images/hula/bg/solstice-1600.jpg");
+    }
+    }
+
+    .modal-body, .modal-header { padding: 30px; }
+    .modal-header .close:hover,
+    .modal-header .close:focus { background: transparent; }
+
+    .modal a {
+        color: #ff7f7f;
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="aries" data-page="other">
+  <header class="clearfix">
+      <div class="container">
+          <a class="hooply" href="/">Hooply</a>
+          <p class="free-shipping">Early supporters get extra spins for free</p>
+      </div>
+  </header>
+  <div class="header-push"></div>
+
+
+  <div class="preorder-now text-right">
+    <a class="ar-preorder btn btn-preorder slide-link" href="#preorder">Pre-order Now</a>
+  </div>
+
+<div id="content"
+     data-anchor-target="#push-story"
+     data-0="@class:hide-right"
+     data--50p-bottom="@class:show-right"
+     >
+
+    <div class="side-bar hide-right"
+         data-anchor-target="#push-preorder"
+         data-0="@class:side-bar"
+         data-center-top="@class:side-bar hide-right"
+         >
+        <ol>
+            <li data-anchor-target="#push-notifications"
+                data-0="@class:active"
+                data-center-top="@class:normal">
+                <a class="slide-link" href="#story">Our Story</a>
+            </li>
+            <li data-anchor-target="#push-notifications"
+                data-0="@class:normal"
+                data-center-top="@class:active"
+                data-center-bottom="@class:normal">
+                <a class="slide-link" href="#notifications">Notifications</a>
+            </li>
+            <li data-anchor-target="#push-steps"
+                data-0="@class:normal"
+                data-center-top="@class:active"
+                data-center-bottom="@class:normal">
+                <a class="slide-link" href="#steps">Spin tracking</a>
+            </li>
+
+            <li data-anchor-target="#push-preorder"
+                data-0="@class:normal"
+                data-center-top="@class:active"
+                data-center-bottom="@class:normal">
+                <a class="slide-link" href="#preorder">Pre-order</a>
+            </li>
+        </ol>
+    </div>
+
+    <div id="story" class="acard first-acard vh" data-vh="100"
+
+         data-anchor-target="#push-preorder"
+         data-0="display: block;"
+         data-top="display: none;">
+        <div class="container padded-top text-center">
+            <h1 class="text-center" style="margin-bottom:9px">Meet the Hula-Hooply</h1>
+            <p class="ar-collection-sub" style="font-size:18px;">
+                The smartest hoop you’ve <span class="nowrap">ever seen</span>
+            </p>
+            <p class="ar-watchvideo">
+                <a href="#watch" onclick="return false">
+                    <span class="play-btn"><b></b></span><br>
+                    Play Me
+                </a>
+            </p>
+
+            <a class="ar-next slide-link" href="#notifications">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+                <span class="sr-only">next: notifications</span>
+            </a>
+        </div>
+
+        <div class="video-overlay hide"
+             data-url="//www.youtube.com/embed/1ssG2xota8c?rel=0&amp;showinfo=0&amp;enablejsapi=true&amp;autoplay=1&amp;controls=1" data-domain="https://www.youtube.com">
+            <div class="faux"></div>
+            <a class="close-overlay" href="#" onclick="return false">
+                <span class="glyphicon glyphicon-remove"></span>
+                <span class="sr-only">close</span>
+            </a>
+            <div class="video-wrap">
+                <div class="embed-responsive embed-responsive-16by9"></div>
+            </div>
+        </div>
+    </div>
+    <div id="push-story" class="acard-push vh" data-vh="130"></div>
+
+
+    <div id="notifications" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-notifications"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <div class="container padded-top">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>Never be distracted while hooping again</h3>
+                </div>
+            </div>
+
+            <div class="media-section n10ns-media-section">
+                <div class="media-section-inner">
+                    <span class="ari-phone"
+                          data-anchor-target="#push-notifications"
+                          data-center-top="transform: perspective(200px) translate3d(40px, 0, -40px)"
+                          data-top="transform: perspective(200px) translate3d(0px, 0px, 0px)"
+                          ><span class="ari-screen"></span></span>
+                    <span class="ari-bracelet"
+                          data-anchor-target="#push-notifications"
+                          data-center-top="transform: perspective(200px) translate3d(-40px, 12px, -40px)"
+                          data-top="transform: perspective(200px) translate3d(10px, 12px, 0px)"
+                          ></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="center-sm">
+                        Hula-Hooply pairs with your phone to send you
+                        customized notifications through vibrations &amp; light,
+                        so you can hoop without worrying about your phone.
+                    </p>
+                    <div class="row center-sm">
+                        <ul class="col-md-7 col-lg-6">
+                            <li>
+                                <strong>Hands-free hooping</strong>
+                                <p>
+                                    Don’t get distracted by staring at your phone
+                                    for social media likes or phone calls
+                                    while you hoop.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Stay in the loop</strong>
+                                <p>
+                                    With Hula-Hooply, you choose to get only
+                                    the important notifications, so you can minimize
+                                    distraction and maximize your hoops!
+                                </p>
+                                <p class="dim em center-sm" style="font-size:11px;">(Image not to scale)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="ar-next ar-next-general slide-link" href="#steps">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <span class="sr-only">next: spin tracking</span>
+        </a>
+    </div>
+    <div id="push-notifications" class="acard-push vh" data-vh="130"></div>
+
+
+    <div id="bg-1" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-bg-1"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <p class="testimonial">
+            Hooply has forever changed how I hoop. I never hoop without it.
+            <span class="name">-Sarah, New York</span>
+        </p>
+    </div>
+    <div id="push-bg-1" class="acard-push vh" data-vh="100"></div>
+
+
+    <div id="steps" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-steps"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <div class="container padded-top">
+            <div class="row">
+                <div class="col-md-offset-6 col-md-4">
+                    <h3>
+                        Spin tracking never looked <span class="nowrap">so good</span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="media-section steps-media-section">
+                <div class="media-section-inner">
+                    <span class="ari-phone"
+                          data-anchor-target="#push-steps"
+                          data-center-top="transform: perspective(200px) translate3d(-40px, 0, -40px)"
+                          data-top="transform: perspective(200px) translate3d(0px, 0px, 0px)"
+                          ><span class="ari-screen"></span></span>
+                    <span class="ari-bracelet"
+                          data-anchor-target="#push-steps"
+                          data-center-top="transform: perspective(200px) translate3d(40px, 12px, -40px)"
+                          data-top="transform: perspective(200px) translate3d(-20px, 12px, 0px)"
+                          ></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-offset-6 col-md-4">
+                    <p class="center-sm">
+                        Effortlessly track your hoop spins and receive alerts when you achieve
+                        <span class="nowrap">your hoop dreams.</span>
+                    </p>
+                    <p class="center-sm">
+                        This is the biggest innovation in hula-hoops, since their inception in 1958.
+                    </p>
+                    <p class="dim em center-sm" style="font-size:11px;">(Image not to scale)</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="ar-next ar-next-general slide-link" href="#preorder">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <span class="sr-only">next: preorder</span>
+        </a>
+    </div>
+    <div id="push-steps" class="acard-push vh" data-vh="130"></div>
+
+
+    <div id="bg-2" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-bg-2"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <p class="testimonial">
+            I miss my skip counting toy from the 90s so much—finally such technology in a hoop!
+            <span class="name">-Annabelle, L.A.</span>
+        </p>
+    </div>
+    <div id="push-bg-2" class="acard-push vh" data-vh="100"></div>
+
+
+    <div id="preorder" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-preorder"
+         data-1-bottom-top="top: 130%; transform: translateY(0px)"
+         data-top="top: 0%; transform: translateY(0px)"
+         data-200-bottom="top: 0%; transform: translateY(0px)"
+         data--300-bottom="top: 0%; transform: translateY(-500px)">
+
+        <div class="container text-center">
+            <h2 class="text-center">the Hoola-Hooply Collection</h2>
+            <p class="shout">
+                The hoop that’s brilliant • <span class="nowrap">Shipping April 1, 2017</span>
+            </p>
+            <div class="row ar-row">
+
+                <div class="col-mo-12 col-xs-6 col-sm-3">
+                    <a class="ar-product" href="#" onclick="return false"
+                       data-toggle="modal" data-target="#myModal"
+                       data-id="100">
+                        <span class="ar-img">
+                            <img src="/static/images/hula/hula-forest.jpg" data-2x="/static/images/hula/hula-forest2x.jpg">
+                        </span>
+                        <span class="ar-name">Forest</span>
+                        <span class="ar-subname">Metallic Green</span>
+                        <span class="ar-og-price"><s>&nbsp;$800.00 USD&nbsp;</s></span>
+                        <span class="ar-price"><b>$20.00</b> USD</span>
+                        <span class="ar-btn"><span class="xsmall">Pre-order Now</span></span>
+                    </a>
+                </div>
+
+                <hr class="ar-xs-sep" />
+
+                <div class="col-mo-12 col-xs-6 col-sm-3">
+                    <a class="ar-product" href="#" onclick="return false"
+                       data-toggle="modal" data-target="#myModal"
+                       data-id="101">
+                        <span class="ar-img">
+                            <img src="/static/images/hula/hula-ice.jpg" data-2x="/static/images/hula/hula-ice2x.jpg">
+                        </span>
+                        <span class="ar-name">Ice</span>
+                        <span class="ar-subname">Metallic Blue</span>
+                        <span class="ar-og-price"><s>&nbsp;$800.00 USD&nbsp;</s></span>
+                        <span class="ar-price"><b>$20.00</b> USD</span>
+                        <span class="ar-btn"><span class="xsmall">Pre-order Now</span></span>
+                    </a>
+                </div>
+
+                <hr class="ar-xs-sep" />
+
+                <div class="col-mo-12 col-xs-6 col-sm-3">
+                    <a class="ar-product" href="#" onclick="return false"
+                       data-toggle="modal" data-target="#myModal"
+                       data-id="102">
+                        <span class="ar-img">
+                            <img src="/static/images/hula/hula-magma.jpg" data-2x="/static/images/hula/hula-magma2x.jpg">
+                        </span>
+                        <span class="ar-name">Magma</span>
+                        <span class="ar-subname">Metallic Red</span>
+                        <span class="ar-og-price"><s>&nbsp;$800.00 USD&nbsp;</s></span>
+                        <span class="ar-price"><b>$20.00</b> USD</span>
+                        <span class="ar-btn"><span class="xsmall">Pre-order Now</span></span>
+                    </a>
+                </div>
+
+                <hr class="ar-xs-sep" />
+
+                <div class="col-mo-12 col-xs-6 col-sm-3">
+                    <a class="ar-product" href="#" onclick="return false"
+                       data-toggle="modal" data-target="#myModal"
+                       data-id="103">
+                        <span class="ar-img">
+                            <img src="/static/images/hula/hula-space.jpg" data-2x="/static/images/hula/hula-space2x.jpg">
+                        </span>
+                        <span class="ar-name">Space</span>
+                        <span class="ar-subname">Metallic Indigo</span>
+                        <span class="ar-og-price"><s>&nbsp;$800.00 USD&nbsp;</s></span>
+                        <span class="ar-price"><b>$20.00</b> USD</span>
+                        <span class="ar-btn"><span class="xsmall">Pre-order Now</span></span>
+                    </a>
+                </div>
+
+            </div>
+            <p class="dim small br-top avail-sizes">
+                Available in one size - universal hoop
+            </p>
+        </div>
+    </div>
+    <div id="push-preorder" class="acard-push vh" data-vh="200"></div>
+
+    <div id="push-footer" class="footer-push"></div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Happy April Fools!</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    The Hula-Hooply is sadly not a real product. However,
+                    there are real problems today with technology. Sometimes
+                    we are too attached to our phones and miss out on real
+                    life. Other times we miss that one important call or
+                    notification until way too late.
+                    <br><br>
+                    At <a href="https://ringly.com/">Ringly</a> we believe
+                    that technology should be subtle, discreet, and fashionable.
+                    We believe that the above mentioned problems do not need to be
+                    the norm, and that we can empower ourselves to live a happier,
+                    connected-enough life.
+                    <br><br>
+                    If we have piqued your interest, then take a look at the
+                    <a href="https://ringly.com/">ring</a> we
+                    have already shipped to many happy customers and fans. Or if you are
+                    even more bold, join the pre-order for our new
+                    <a href="https://ringly.com/aries">Aries Bracelet</a>, which
+                    has the same notification functionality, as well as step-tracking
+                    too.
+                    <br><br>
+                    xo, Ringly
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer data-anchor-target="#push-preorder"
+        data-bottom="transform: translateY(0px)"
+        data--300-bottom="transform: translateY(-300px)">
+    <div class="container">
+        <div class="clearfix br">
+            <p class="left" style="text-align:left; color: #999; font-size:11px;">
+                Images:
+                <a href="https://commons.wikimedia.org/wiki/File:Friday_at_Quad-10_(6872065622).jpg">Friday at the Quad</a> •
+                <a href="https://commons.wikimedia.org/wiki/File:Tulane_Campus_Block_Party.jpg">Block Party</a> •
+                <a href="https://commons.wikimedia.org/wiki/File:Solstice_Parade_2013_-_084_(9146427373).jpg">Solstice Parade</a><br>
+            </p>
+            <p class="right">
+                © 2016 HulaHooply
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="/static/bower/jquery/dist/jquery.js"></script>
+  <script src="/static/js/lib/modernizr.custom.25477.js"></script>
+  <script src="/static/bower/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="/static/js/app.js"></script>
+
+  <script src="/static/bower/skrollr/dist/skrollr.min.js"></script>
+  <script src="/static/js/hula.js"></script>
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-45774255-4', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+  <script>
+      if (top != self) top.location.replace(self.location.href);
+  </script>
+
+</body>
+</html>
