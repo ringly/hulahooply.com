@@ -10,11 +10,8 @@
 
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <meta property="og:image" content="/static/images/aries-ringly-bracelet.jpg"/>
   <link rel="stylesheet" href="//cloud.typography.com/6176292/805864/css/fonts.css" />
   <link rel="shortcut icon" href="/favicon.ico">
-
-
 
   <link href="/static/bower/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="/static/css/reset.css" rel="stylesheet" />
@@ -120,6 +117,23 @@
     .modal a {
         color: #ff7f7f;
     }
+
+	.modal-header .close { margin-top: 8px; }
+	.modal-title { font-size: 24px; line-height: 36px; }
+
+	.ar-watchvideo .play-btn {
+	  background: #fff; /*555;*/
+	  background: rgba(255, 255, 255, 0.8); /* rgba(0, 0, 0, 0.6); */
+	}
+	.ar-watchvideo .play-btn b {
+	  border-left-color: #111; /*#ffffff;*/
+	}
+	.ar-watchvideo {
+	color: yellow;
+	text-shadow: 1px 1px 1px purple, -1px -1px 1px orange;
+	}
+
+	.steps-media-section .ari-screen { background-image: url("/static/images/aries/steps-app-interface.jpg"); }
   </style>
 
   <!--[if lt IE 9]>
@@ -204,7 +218,7 @@
         </div>
 
         <div class="video-overlay hide"
-             data-url="//www.youtube.com/embed/1ssG2xota8c?rel=0&amp;showinfo=0&amp;enablejsapi=true&amp;autoplay=1&amp;controls=1" data-domain="https://www.youtube.com">
+             data-url="//www.youtube.com/embed/Kkk5-d8lMP4?rel=0&amp;showinfo=0&amp;enablejsapi=true&amp;autoplay=1&amp;controls=1" data-domain="https://www.youtube.com">
             <div class="faux"></div>
             <a class="close-overlay" href="#" onclick="return false">
                 <span class="glyphicon glyphicon-remove"></span>
@@ -459,11 +473,11 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Happy April Fools!</h4>
+                <h4 class="modal-title">Happy April Fools! 😜</h4>
             </div>
             <div class="modal-body">
                 <p>
-                    The Hula-Hooply is sadly not a real product. However,
+                    The Hula-Hooply is not a real product. However,
                     there are real problems today with technology. Sometimes
                     we are too attached to our phones and miss out on real
                     life. Other times we miss that one important call or
@@ -471,7 +485,7 @@
                     <br><br>
                     At <a href="https://ringly.com/">Ringly</a> we believe
                     that technology should be subtle, discreet, and fashionable.
-                    We believe that the above mentioned problems do not need to be
+                    We believe that the previously mentioned problems do not need to be
                     the norm, and that we can empower ourselves to live a happier,
                     connected-enough life.
                     <br><br>
@@ -514,7 +528,7 @@
   <script src="/static/js/lib/modernizr.custom.25477.js"></script>
   <script src="/static/bower/bootstrap/dist/js/bootstrap.js"></script>
 
-  <script src="/static/js/app.js"></script>
+  <!-- script src="/static/js/app.js"></script -->
 
   <script src="/static/bower/skrollr/dist/skrollr.min.js"></script>
   <script src="/static/js/hula.js"></script>

@@ -625,8 +625,8 @@ html.show-video #story .faux {
 .ar-watchvideo .play-btn {
   position: relative;
   display: inline-block;
-  background: #555;
-  background: rgba(0, 0, 0, 0.6);
+  background: #fff; /*555;*/
+  background: rgba(255, 255, 255, 0.6); /* rgba(0, 0, 0, 0.6); */
   width: 60px;
   height: 60px;
   -webkit-border-radius: 30px;
@@ -637,7 +637,7 @@ html.show-video #story .faux {
   content: "";
   position: absolute;
   border: 0 solid transparent;
-  border-left-color: #ffffff;
+  border-left-color: #555; /*#ffffff;*/
   left: 23px;
   top: 18px;
   border-width: 12px 0 12px 20px;
