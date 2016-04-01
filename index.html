@@ -46,6 +46,7 @@
     position: absolute;
     bottom: 60px;
     right: 0;
+    left: 0;
     padding: 10px 15px;
     color: #fff;
     text-shadow: 0 0 5px pink;
@@ -148,7 +149,7 @@
   <header class="clearfix">
       <div class="container">
           <a class="hooply" href="/">Hooply</a>
-          <p class="free-shipping">Early supporters get extra spins for free</p>
+          <p class="free-shipping">A new way to hoop</p>
       </div>
   </header>
   <div class="header-push"></div>
@@ -170,16 +171,10 @@
          data-center-top="@class:side-bar hide-right"
          >
         <ol>
-            <li data-anchor-target="#push-notifications"
+            <li data-anchor-target="#push-steps"
                 data-0="@class:active"
                 data-center-top="@class:normal">
                 <a class="slide-link" href="#story">Our Story</a>
-            </li>
-            <li data-anchor-target="#push-notifications"
-                data-0="@class:normal"
-                data-center-top="@class:active"
-                data-center-bottom="@class:normal">
-                <a class="slide-link" href="#notifications">Notifications</a>
             </li>
             <li data-anchor-target="#push-steps"
                 data-0="@class:normal"
@@ -187,7 +182,12 @@
                 data-center-bottom="@class:normal">
                 <a class="slide-link" href="#steps">Spin tracking</a>
             </li>
-
+            <li data-anchor-target="#push-notifications"
+                data-0="@class:normal"
+                data-center-top="@class:active"
+                data-center-bottom="@class:normal">
+                <a class="slide-link" href="#notifications">Notifications</a>
+            </li>
             <li data-anchor-target="#push-preorder"
                 data-0="@class:normal"
                 data-center-top="@class:active"
@@ -196,6 +196,7 @@
             </li>
         </ol>
     </div>
+
 
     <div id="story" class="acard first-acard vh" data-vh="100"
 
@@ -221,7 +222,7 @@
         </div>
 
         <div class="video-overlay hide"
-             data-url="//www.youtube.com/embed/Kkk5-d8lMP4?rel=0&amp;showinfo=0&amp;enablejsapi=true&amp;autoplay=1&amp;controls=1" data-domain="https://www.youtube.com">
+             data-url="//www.youtube.com/embed/SolLSyWuQNc?rel=0&amp;showinfo=0&amp;enablejsapi=true&amp;autoplay=1&amp;controls=1" data-domain="https://www.youtube.com">
             <div class="faux"></div>
             <a class="close-overlay" href="#" onclick="return false">
                 <span class="glyphicon glyphicon-remove"></span>
@@ -233,6 +234,73 @@
         </div>
     </div>
     <div id="push-story" class="acard-push vh" data-vh="130"></div>
+
+
+    <div id="steps" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-steps"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <div class="container padded-top">
+            <div class="row">
+                <div class="col-md-offset-6 col-md-4">
+                    <h3>
+                        Spin tracking never looked <span class="nowrap">so good</span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="media-section steps-media-section">
+                <div class="media-section-inner">
+                    <span class="ari-phone"
+                          data-anchor-target="#push-steps"
+                          data-center-top="transform: perspective(200px) translate3d(-40px, 0, -40px)"
+                          data-top="transform: perspective(200px) translate3d(0px, 0px, 0px)"
+                          ><span class="ari-screen"></span></span>
+                    <span class="ari-bracelet"
+                          data-anchor-target="#push-steps"
+                          data-center-top="transform: perspective(200px) translate3d(40px, 12px, -40px)"
+                          data-top="transform: perspective(200px) translate3d(-20px, 12px, 0px)"
+                          ></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-offset-6 col-md-4">
+                    <p class="center-sm">
+                        Hula-hooply pairs with your phone so you can
+                        effortlessly track your spins and receive alerts
+                        when you reach your hoop goals.
+                        <br><br>
+                        The longest verified record holder for hooping is
+                        Aaron Hibbs who kept a hoop spinning for 74 hours
+                        and 54 minutes in 2009. How long
+                        <span class="nowrap">can you hoop?</span>
+                    </p>
+                    <p class="dim em center-sm" style="font-size:11px;">(Image not to scale)</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="ar-next ar-next-general slide-link" href="#preorder">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <span class="sr-only">next: preorder</span>
+        </a>
+    </div>
+    <div id="push-steps" class="acard-push vh" data-vh="130"></div>
+
+
+    <div id="bg-1" class="acard vh" data-vh="90" data-vh-xs="100"
+         data-anchor-target="#push-bg-1"
+         data-1-bottom-top="top: 130%; display: block"
+         data-top="top: 0%; display: block"
+         data-top-bottom="top: 0%; display: none;">
+        <p class="testimonial">
+            Hooply has forever changed how I hoop. I never hoop without it.
+            <span class="name">-Sarah, New York</span>
+        </p>
+    </div>
+    <div id="push-bg-1" class="acard-push vh" data-vh="100"></div>
 
 
     <div id="notifications" class="acard vh" data-vh="90" data-vh-xs="100"
@@ -300,70 +368,6 @@
         </a>
     </div>
     <div id="push-notifications" class="acard-push vh" data-vh="130"></div>
-
-
-    <div id="bg-1" class="acard vh" data-vh="90" data-vh-xs="100"
-         data-anchor-target="#push-bg-1"
-         data-1-bottom-top="top: 130%; display: block"
-         data-top="top: 0%; display: block"
-         data-top-bottom="top: 0%; display: none;">
-        <p class="testimonial">
-            Hooply has forever changed how I hoop. I never hoop without it.
-            <span class="name">-Sarah, New York</span>
-        </p>
-    </div>
-    <div id="push-bg-1" class="acard-push vh" data-vh="100"></div>
-
-
-    <div id="steps" class="acard vh" data-vh="90" data-vh-xs="100"
-         data-anchor-target="#push-steps"
-         data-1-bottom-top="top: 130%; display: block"
-         data-top="top: 0%; display: block"
-         data-top-bottom="top: 0%; display: none;">
-        <div class="container padded-top">
-            <div class="row">
-                <div class="col-md-offset-6 col-md-4">
-                    <h3>
-                        Spin tracking never looked <span class="nowrap">so good</span>
-                    </h3>
-                </div>
-            </div>
-
-            <div class="media-section steps-media-section">
-                <div class="media-section-inner">
-                    <span class="ari-phone"
-                          data-anchor-target="#push-steps"
-                          data-center-top="transform: perspective(200px) translate3d(-40px, 0, -40px)"
-                          data-top="transform: perspective(200px) translate3d(0px, 0px, 0px)"
-                          ><span class="ari-screen"></span></span>
-                    <span class="ari-bracelet"
-                          data-anchor-target="#push-steps"
-                          data-center-top="transform: perspective(200px) translate3d(40px, 12px, -40px)"
-                          data-top="transform: perspective(200px) translate3d(-20px, 12px, 0px)"
-                          ></span>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-offset-6 col-md-4">
-                    <p class="center-sm">
-                        Effortlessly track your hoop spins and receive alerts when you achieve
-                        <span class="nowrap">your hoop dreams.</span>
-                    </p>
-                    <p class="center-sm">
-                        This is the biggest innovation in hula-hoops, since their inception in 1958.
-                    </p>
-                    <p class="dim em center-sm" style="font-size:11px;">(Image not to scale)</p>
-                </div>
-            </div>
-        </div>
-
-        <a class="ar-next ar-next-general slide-link" href="#preorder">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            <span class="sr-only">next: preorder</span>
-        </a>
-    </div>
-    <div id="push-steps" class="acard-push vh" data-vh="130"></div>
 
 
     <div id="bg-2" class="acard vh" data-vh="90" data-vh-xs="100"
@@ -514,6 +518,7 @@
     <div class="container">
         <div class="clearfix br">
             <p class="left" style="text-align:left; color: #999; font-size:11px;">
+                Contact: <script>document.write('<a href="mailto:ixnxfxox@xhxuxlxaxhxoxoxpxlxyx.xcxom">ixnxfxox@xhxuxlxaxhxoxoxpxlxyx.xcxom</a>'.replace(/x/g, ''))</script><br>
                 Images:
                 <a href="https://commons.wikimedia.org/wiki/File:Friday_at_Quad-10_(6872065622).jpg">Friday at the Quad</a> •
                 <a href="https://commons.wikimedia.org/wiki/File:Tulane_Campus_Block_Party.jpg">Block Party</a> •
