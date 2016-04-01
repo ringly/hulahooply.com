@@ -64,16 +64,11 @@
     .name { white-space: nowrap; }
 
     #story, html.show-video #story .faux {
-      background-image: url("/static/images/hula/bg/quad-414.jpg");
+      background-image: url("/static/images/hula/bg/quad-414-2.jpg");
       background-size: cover;
     }
     #bg-1 {
-      background-image: url("/static/images/hula/bg/block-party-414.jpg");
-      background-size: cover;
-      background-color: pink;
-    }
-    #bg-2 {
-      background-image: url("/static/images/hula/bg/solstice-414.jpg");
+      background-image: url("/static/images/hula/bg/block-party-414-2.jpg");
       background-size: cover;
       background-color: pink;
     }
@@ -85,9 +80,6 @@
     #bg-1 {
       background-image: url("/static/images/hula/bg/block-party-640.jpg");
     }
-    #bg-2 {
-      background-image: url("/static/images/hula/bg/solstice-640.jpg");
-    }
     }
 
     @media (min-width: 641px) {
@@ -97,9 +89,6 @@
     #bg-1 {
       background-image: url("/static/images/hula/bg/block-party-1200.jpg");
     }
-    #bg-2 {
-      background-image: url("/static/images/hula/bg/solstice-1200.jpg");
-    }
     }
 
     @media (min-width: 1201px) {
@@ -108,9 +97,6 @@
     }
     #bg-1 {
       background-image: url("/static/images/hula/bg/block-party-1600.jpg");
-    }
-    #bg-2 {
-      background-image: url("/static/images/hula/bg/solstice-1600.jpg");
     }
     }
 
@@ -123,7 +109,7 @@
     }
 
 	.modal-header .close { margin-top: 8px; }
-	.modal-title { font-size: 24px; line-height: 36px; }
+	.modal h4 { font-size: 24px; line-height: 36px; }
 
 	.ar-watchvideo .play-btn {
 	  background: #fff; /*555;*/
@@ -150,6 +136,7 @@
     text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 20px;
     }
     .shr:hover,
     .shr:focus {
@@ -158,6 +145,29 @@
     .shr-tw {
     background: #56bfef;
     border-color: #77d5f7;
+    }
+    .log {
+    display: inline-block;
+    background: transparent url("https://static.ringly.com/images/ringly-logo-m.png") scroll no-repeat 0 0;
+    width: 105px;
+    height: 16px;
+    background-size: 105px 16px;
+    text-indent: 110%;
+    overflow: hidden;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .log { background-image: url("https://static.ringly.com/images/ringly-logo-m@2x.png"); }
+    }
+    @media (min-width: 641px) {
+    .log {
+    background-image: url("https://static.ringly.com/images/ringly-logo.png");
+    width: 158px;
+    height: 24px;
+    background-size: 158px 24px;
+    }
+    }
+    @media (min-width: 641px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 641px) and (min-resolution: 192dpi) {
+    .log { background-image: url("https://static.ringly.com/images/ringly-logo@2x.png"); }
     }
   </style>
 
@@ -177,7 +187,9 @@
 
 
   <div class="preorder-now text-right">
-    <a class="ar-preorder btn btn-preorder slide-link" href="#preorder">Pre-order Now</a>
+      <a class="ar-preorder btn btn-preorder slide-link" href="#preorder"
+         data-toggle="modal" data-target="#myModal"
+         >Pre-order Now</a>
   </div>
 
 <div id="content"
@@ -486,25 +498,16 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Happy April Fools! 😜</h4>
+                <div class="text-center"><a href="https://ringly.com"><span class="log">Ringly</span></a></div>
             </div>
             <div class="modal-body">
+                <h4 class="text-center"><span class="no-mobile">😜</span> Happy April Fools! 😜</h4>
                 <p>
-                    Our technology is only limited by our imagination,
-                    and while the Hula-Hooply is not a real product,
-                    we love to think about how we can fuse technology
-                    into our lives in a meaningful and useful
-                    way. Here at Ringly we are aware that we sometimes
-                    become attached to our phones and miss out on real
-                    life. Other times we miss that one important call
-                    or notification until way too late.
+                    Our technology is only limited by our imagination, and while the Hula-Hooply is not a real product, we love to think about how we can fuse technology into our lives in a meaningful and useful way.
                     <br><br>
-                    If we have piqued your interest, visit
-                    <a href="https://ringly.com/aries">Ringly.com/aries</a> to
-                    learn more about our connected
-                    jewelry and recent smart bracelet launch.
+                    Now that we have your attention, check out our newly launched smart bracelet collection: <a href="https://ringly.com/aries">ringly.com/aries</a>.  It may not count your hoops, but we think you’ll find its super skills pretty cool.
                     <br><br>
-                    Xo,<br>
+                    xo,<br>
                     Team Ringly
                 </p>
             </div>
